@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror.loerfy.now.sh
-  proxy: www.google.com
+  self: goo.wr0926.ml
+  proxy: www.google.com.hk
 
 replaced_urls:
-  - old: www.google.com
-    new: mirror.loerfy.now.sh
+  - old: www.google.com.hk
+    new: goo.wr0926.ml
 `
 var Config *Yaml
 var Protocal string
