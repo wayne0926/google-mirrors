@@ -27,10 +27,10 @@ handle_cookie: True
 
 host:
   self: goo.wr0926.ml
-  proxy: etherdream.github.io/jsproxy/
+  proxy: www.google.com
 
 replaced_urls:
-  - old: etherdream.github.io/jsproxy/
+  - old: www.google.com
     new: goo.wr0926.ml
 `
 var Config *Yaml
